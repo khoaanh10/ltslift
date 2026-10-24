@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://khoaanh10.github.io/ltslift/sitemap.xml

@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>.NET 8 / 9 End of Support: Fixed-price upgrades to .NET 10 LTS | LTS Lift</title>
+<meta name="description" content=".NET 8 and .NET 9 stop getting security patches on 10 November 2026. Fixed-price upgrades to .NET 10 LTS for teams without a .NET developer. Free scanner, free risk check, audit from $49.">
+<link rel="canonical" href="https://khoaanh10.github.io/ltslift/">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#5b3fd6">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://khoaanh10.github.io/ltslift/">
+<meta property="og:title" content=".NET 8 / 9 support ends 10 Nov 2026 — fixed-price upgrade to .NET 10">
+<meta property="og:description" content="For businesses running a .NET app with no .NET developer on staff. Free risk check, $49 audit, upgrades from $390. You get a pull request with a passing build — you stay in control of deployment.">
+<meta property="og:site_name" content="LTS Lift">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%235b3fd6'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='14' fill='white' text-anchor='middle'%3E10%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script>
+  // Apply saved theme before paint to avoid a flash.
+  try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": ".NET 8/9 to .NET 10 upgrade",
+  "provider": { "@type": "Organization", "name": "LTS Lift", "slogan": "Fixed-price upgrades to .NET 10 LTS" },
+  "serviceType": "Software upgrade",
+  "url": "https://khoaanh10.github.io/ltslift/",
+  "offers": [
+    { "@type": "Offer", "name": "Upgrade audit", "price": "49", "priceCurrency": "USD" },
+    { "@type": "Offer", "name": "Single-project upgrade", "price": "390", "priceCurrency": "USD" },
+    { "@type": "Offer", "name": "Multi-project or Azure Functions upgrade", "price": "890", "priceCurrency": "USD" }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top">LTS Lift</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#scanner">Free scanner</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
+    <a class="btn btn-primary" href="#risk-check">Free risk check</a>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="top">
+  <div class="wrap">
+    <span class="eyebrow"><span class="dot"></span>
+      <span data-before>.NET 8 &amp; .NET 9 end of support: 10 November 2026</span>
+      <span data-after hidden>.NET 8 &amp; .NET 9 are now unsupported (since 10 November 2026)</span>
+    </span>
+    <h1 data-before>Your .NET app stops getting security patches on 10&nbsp;November. We'll move it to .NET&nbsp;10 for a fixed price.</h1>
+    <h1 data-after hidden>Your .NET 8 / 9 app no longer gets security patches. We'll move it to .NET&nbsp;10 for a fixed price.</h1>
+    <p class="lede">For businesses running a .NET app with nobody left who knows .NET. You get a tested upgrade delivered as a pull request — a clear scope, a fixed price, and you stay in control of when it goes live.</p>
+
+    <div class="countdown" id="countdown" aria-live="off" data-before>
+      <div class="unit"><span class="num" id="cd-days">–</span><span class="lbl">days</span></div>
+      <div class="unit"><span class="num" id="cd-hours">–</span><span class="lbl">hours</span></div>
+      <div class="unit"><span class="num" id="cd-mins">–</span><span class="lbl">minutes</span></div>
+    </div>
+    <p class="countdown-after" data-after hidden><strong>Microsoft no longer ships security fixes for .NET 8 or .NET 9.</strong> Your app keeps running — but every new vulnerability from now on stays open.</p>
+
+    <div class="btn-row">
+      <a class="btn btn-primary" href="#risk-check">Get a free risk check</a>
+      <a class="btn btn-ghost" href="#pricing">See fixed prices</a>
+    </div>
+    <p class="fine" style="margin-top:12px">No code access needed for the risk check. Reply within 1 business day.</p>
+  </div>
+</section>
+
+<section class="alt risks" aria-labelledby="risk-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="risk-title">What "end of support" means for your business</h2>
+      <p class="muted">Nothing breaks overnight. That's what makes it easy to ignore.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <h3>No more security fixes</h3>
+        <p>After 10 November 2026, Microsoft stops patching .NET 8 and .NET 9. New vulnerabilities found in the runtime stay open in your app.</p>
+      </div>
+      <div class="card">
+        <h3>Azure Functions has its own deadline</h3>
+        <p>The Azure Functions <em>in-process</em> model also reaches end of support on 10 November 2026. Those apps must move to the isolated worker model before they can run on .NET 10.</p>
+      </div>
+      <div class="card">
+        <h3>Audits and customers will ask</h3>
+        <p>Security questionnaires, pen tests and compliance reviews routinely flag unsupported runtimes. "We're on an unsupported version" is a hard answer to give a customer.</p>
+      </div>
+    </div>
+    <p class="fine" style="margin-top:20px">.NET 10 is the current Long Term Support release, supported until November 2028. Sources: <a href="https://devblogs.microsoft.com/dotnet/dotnet-8-9-end-of-support/" rel="noopener">Microsoft .NET Blog</a>, <a href="https://dotnet.microsoft.com/platform/support/policy/dotnet-core" rel="noopener">.NET support policy</a>.</p>
+  </div>
+</section>
+
+<section aria-labelledby="who-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="who-title">Who this is for — and who it isn't</h2>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <h3>A good fit if you…</h3>
+        <ul class="check">
+          <li>Run a web app, API or Azure Function built on .NET 6, 7, 8 or 9 — or an older .NET Framework app</li>
+          <li>Had it built by a contractor, agency or developer who has since moved on</li>
+          <li>Don't have anyone on staff who can do the upgrade (or they're busy on other work)</li>
+          <li>Want a fixed price and a clear scope instead of an open-ended hourly engagement</li>
+          <li>Are an agency maintaining client .NET apps and need overflow help</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Probably not for you if…</h3>
+        <ul class="cross">
+          <li>You have a .NET developer with time — an 8 → 10 upgrade is often straightforward for them, and Microsoft's <a href="https://learn.microsoft.com/dotnet/core/porting/" rel="noopener">upgrade guidance</a> helps</li>
+          <li>You want new features or a redesign — this is an upgrade, not a rewrite</li>
+          <li>You need us to deploy to or operate your production servers</li>
+          <li>You need it done in 24 hours</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="how" aria-labelledby="how-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="how-title">How it works</h2>
+      <p class="muted">Three steps. You approve the price before any paid work starts.</p>
+    </div>
+    <div class="grid-3 steps">
+      <div class="card">
+        <h3>Check your exposure</h3>
+        <p>Run the free scanner on your code (or ask whoever has the code to run it), or just fill in the risk-check form. We reply within one business day with what's affected and which package fits.</p>
+      </div>
+      <div class="card">
+        <h3>Get a fixed quote</h3>
+        <p>Simple apps go straight to a fixed price. For anything unclear, the $49 audit gives you a written report and a firm quote. You give us read access to the repository — never to production.</p>
+      </div>
+      <div class="card">
+        <h3>Review and deploy</h3>
+        <p>We upgrade on a separate branch and deliver a pull request with a passing build, your existing tests passing, change notes and a rollback plan. Your team (or hosting provider) deploys when you're ready.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" aria-labelledby="pricing-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="pricing-title">Fixed prices, written scope</h2>
+      <p class="muted">Prices in USD. The scope below is what's included; anything outside it is quoted separately before we start, never billed by surprise.</p>
+    </div>
+    <div class="grid-4">
+      <div class="card price-card">
+        <span class="tag">Start here</span>
+        <h3>Upgrade audit</h3>
+        <div class="price">$49</div>
+        <p class="for">Not sure what you have or what it'll take.</p>
+        <h4>Included</h4>
+        <ul class="check">
+          <li>Scan + manual review of your repository</li>
+          <li>Written report: versions, risky packages, Azure Functions model, Docker &amp; CI setup</li>
+          <li>Recommended path and a firm fixed quote</li>
+          <li>Delivered within 2 business days of access</li>
+        </ul>
+        <h4>Not included</h4>
+        <ul class="cross">
+          <li>Code changes</li>
+        </ul>
+        <span class="spacer"></span>
+                <a class="btn btn-primary" href="#risk-check" data-want="audit">Request the $49 audit</a>
+      </div>
+
+      <div class="card price-card featured">
+        <span class="tag">Most common</span>
+        <h3>Single-project upgrade</h3>
+        <div class="price">$390</div>
+        <p class="for">One app or API on .NET 6, 7, 8 or 9.</p>
+        <h4>Included</h4>
+        <ul class="check">
+          <li>1 deployable project (+ its test and class-library projects) to .NET 10 LTS</li>
+          <li>NuGet packages updated; breaking changes fixed</li>
+          <li>Dockerfile base images, <code>global.json</code> and CI SDK version updated</li>
+          <li>Build passes; your existing tests pass</li>
+          <li>Pull request + change notes + rollback plan</li>
+          <li>Typically 3–5 business days after access</li>
+        </ul>
+        <h4>Not included</h4>
+        <ul class="cross">
+          <li>Deploying to production</li>
+          <li>New features, refactoring, writing new test suites</li>
+          <li>Front-end framework upgrades (Angular/React)</li>
+        </ul>
+        <span class="spacer"></span>
+        <a class="btn btn-primary" href="#risk-check">Check if I qualify</a>
+      </div>
+
+      <div class="card price-card">
+        <span class="tag">Functions &amp; solutions</span>
+        <h3>Multi-project or Azure Functions</h3>
+        <div class="price">$890</div>
+        <p class="for">A solution with several apps, or Functions on the in-process model.</p>
+        <h4>Included</h4>
+        <ul class="check">
+          <li>Up to 5 deployable projects in one solution, <em>or</em> one Function app moved from in-process to the isolated worker model</li>
+          <li>Everything in the single-project upgrade</li>
+          <li>Functions: bindings, startup and configuration migrated; local run verified</li>
+          <li>Typically 5–8 business days after access</li>
+        </ul>
+        <h4>Not included</h4>
+        <ul class="cross">
+          <li>Deploying to production or changing Azure resources</li>
+          <li>More than 5 deployable projects (quoted)</li>
+        </ul>
+        <span class="spacer"></span>
+        <a class="btn btn-ghost" href="#risk-check">Request this package</a>
+      </div>
+
+      <div class="card price-card">
+        <span class="tag">Legacy</span>
+        <h3>.NET Framework → .NET 10</h3>
+        <div class="price"><small>from</small> $1,500</div>
+        <p class="for">ASP.NET MVC / Web API, class libraries, console and service apps on .NET Framework 4.x.</p>
+        <h4>Included</h4>
+        <ul class="check">
+          <li>Audit first, then a fixed quote — no hourly billing</li>
+          <li>Project files, packages and APIs migrated</li>
+          <li>Build + existing tests passing; pull request and notes</li>
+        </ul>
+        <h4>Not included</h4>
+        <ul class="cross">
+          <li>Web Forms or WCF <em>server</em> rewrites (assessed case by case)</li>
+          <li>Deploying to production</li>
+        </ul>
+        <span class="spacer"></span>
+        <a class="btn btn-ghost" href="#risk-check">Ask for a quote</a>
+      </div>
+    </div>
+
+    <div class="guarantee">
+      <span class="icon" aria-hidden="true">↺</span>
+      <div>
+        <strong>Fix-it-or-refund guarantee.</strong>
+        If the upgraded build or your existing tests fail and we can't fix it, you get a full refund. Paid in full before work starts; covered by the fix-it-or-refund guarantee. See the <a href="terms.html">terms</a>.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="scanner" aria-labelledby="scanner-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div>
+      <h2 id="scanner-title">Run the free scanner</h2>
+      <p><strong>dotnet-eol-scan</strong> is a free, open-source command-line tool. It reads your project files, <code>global.json</code> and Dockerfiles and lists every .NET version that's out of support or about to be — including Azure Functions on the in-process model.</p>
+      <ul class="check">
+        <li>Runs locally — your code never leaves your machine</li>
+        <li>No install beyond Node.js 18+, no account, no tracking</li>
+        <li>Text, Markdown or JSON output; fails CI when something is unsupported</li>
+      </ul>
+      <p class="muted">Not technical? Forward this section to whoever has your code, or skip it — the risk-check form works without it.</p>
+      <div class="btn-row">
+        <a class="btn btn-ghost" href="https://github.com/khoaanh10/dotnet-eol-scan" rel="noopener">View on GitHub</a>
+        <a class="btn btn-primary" href="#risk-check">Send me the result</a>
+      </div>
+    </div>
+    <div>
+<pre class="term"><span class="c"># Requires Node.js 18 or newer. Run in your repo folder:</span>
+npx github:khoaanh10/dotnet-eol-scan
+
+<span class="c"># Markdown report to paste or share:</span>
+npx github:khoaanh10/dotnet-eol-scan path/to/your/repo --md</pre>
+<pre class="term"><span class="c"># Example output (sample project)</span>
+[EOL ] Legacy.csproj  .NET Framework: v4.6.1
+[SOON] Api.csproj  TargetFramework: net8.0
+[SOON] Dockerfile  Docker image (aspnet): 8.0
+[SOON] Funcs.csproj  Azure Functions: in-process
+         Must move to isolated worker model
+[OK  ] Multi.csproj  TargetFramework: net10.0
+
+EOL: 1 | Ending soon: 3 | OK: 1</pre>
+      <p class="fine">Paste the output into the form below and we'll tell you which package fits.</p>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="about-title">
+  <div class="wrap grid-2">
+    <div>
+      <h2 id="about-title">Who does the work</h2>
+            <p><strong>LTS Lift — run by an independent .NET developer.</strong> My day-to-day is C#, ASP.NET Core REST APIs, microservices and Docker — the kind of systems that need upgrading right now.</p>
+      <p>I do every upgrade myself, using Microsoft's tooling and AI-assisted code review to move faster, and I check each change by building and running your tests. You deal with one person from quote to pull request.</p>
+      <p class="muted">This is a new service: there are no client logos or testimonials here yet, and I won't invent any. What you can judge instead is the free scanner's source code, the written scope above, and the refund guarantee.</p>
+    </div>
+    <div class="card">
+      <h3>What you get in every upgrade</h3>
+      <ul class="check">
+        <li>A branch and pull request in your repository — you merge it</li>
+        <li>Build passing, existing tests passing</li>
+        <li>Plain-English change notes for non-developers</li>
+        <li>Deployment checklist and rollback plan</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="faq" aria-labelledby="faq-title">
+  <div class="wrap" style="max-width:820px">
+    <h2 id="faq-title">Frequently asked questions</h2>
+    <details>
+      <summary>Will my app stop working on 10 November?</summary>
+      <p>No. It keeps running. What stops is security patching: vulnerabilities discovered after that date won't be fixed for .NET 8 or .NET 9. The risk grows over time rather than all at once.</p>
+    </details>
+    <details>
+      <summary>How do you get access to our code?</summary>
+      <p>The simplest way is read access to your Git repository (GitHub, Azure DevOps, GitLab, Bitbucket) as a collaborator, which you revoke after delivery. A zip of the source works too. We never need access to your production servers, databases or cloud accounts.</p>
+    </details>
+    <details>
+      <summary>Will you sign an NDA?</summary>
+      <p>Yes. We're happy to sign your NDA before seeing any code, or provide a simple mutual NDA.</p>
+    </details>
+    <details>
+      <summary>What about secrets and security?</summary>
+      <p>We don't need your passwords, connection strings or API keys — please remove them from anything you share, or point us to placeholder values. Your code is used only for your job and is not shared.</p>
+    </details>
+    <details>
+      <summary>Who deploys the upgrade?</summary>
+      <p>You do (or your hosting provider / IT partner). We deliver a pull request plus a deployment checklist and rollback plan, so whoever deploys knows exactly what changed. We're available to answer questions while you deploy.</p>
+    </details>
+    <details>
+      <summary>We don't have any tests. Is that a problem?</summary>
+      <p>No, but it changes what "verified" means. Without tests we confirm the build passes and the app starts and responds locally, and we tell you exactly what we couldn't verify. Adding tests is available as a separate quote.</p>
+    </details>
+    <details>
+      <summary>What if it turns out bigger than the package?</summary>
+      <p>We tell you before doing the extra work, with a fixed price for it. You can accept, or stop and keep everything delivered so far. No surprise invoices.</p>
+    </details>
+    <details>
+      <summary>How do I pay?</summary>
+      <p>The audit and every upgrade are paid in full before work starts (upgrades after you accept the fixed quote), and are covered by the fix-it-or-refund guarantee. Prices are in USD.</p>
+    </details>
+    <details>
+      <summary>Why .NET 10 and not .NET 9?</summary>
+      <p>.NET 9 loses support on the same day as .NET 8. .NET 10 is the Long Term Support release, supported until November 2028.</p>
+    </details>
+  </div>
+</section>
+
+<section id="risk-check" aria-labelledby="form-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div>
+      <h2 id="form-title">Free risk check</h2>
+      <p>Tell us what you're running. Within one business day you'll get a short written answer: what's affected, how urgent it is, and which package fits — or an honest "you can do this yourself".</p>
+      <ul class="check">
+        <li>Free, no obligation</li>
+        <li>No code access needed</li>
+        <li>We reply by email — no sales calls unless you ask</li>
+      </ul>
+      <p class="muted">Rather email? <a href="mailto:ltslift.upgrades@gmail.com">ltslift.upgrades@gmail.com</a></p>
+    </div>
+    <form class="card" action="https://formspree.io/f/mvkkgbvn" method="POST">
+      <div class="field">
+        <label for="f-email">Work email</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" required>
+      </div>
+      <div class="field">
+        <label for="f-want">What do you need?</label>
+        <select id="f-want" name="request" required>
+          <option value="risk-check">Free risk check</option>
+          <option value="audit">I want the $49 audit</option>
+          <option value="upgrade-quote">Fixed quote for an upgrade</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-company">Company</label>
+        <input id="f-company" name="company" type="text" autocomplete="organization" required>
+      </div>
+      <fieldset>
+        <legend>.NET version(s) <span class="opt">— tick all that apply</span></legend>
+        <div class="checks">
+          <label><input type="checkbox" name="dotnet_versions" value="framework"> .NET Framework</label>
+          <label><input type="checkbox" name="dotnet_versions" value="core-6-7"> .NET 6 / 7 or older Core</label>
+          <label><input type="checkbox" name="dotnet_versions" value="8"> .NET 8</label>
+          <label><input type="checkbox" name="dotnet_versions" value="9"> .NET 9</label>
+          <label><input type="checkbox" name="dotnet_versions" value="functions-inproc"> Azure Functions (in-process)</label>
+          <label><input type="checkbox" name="dotnet_versions" value="unknown"> Not sure</label>
+        </div>
+      </fieldset>
+      <div class="field">
+        <label for="f-projects">Number of deployable apps / projects</label>
+        <select id="f-projects" name="projects" required>
+          <option value="">Choose…</option>
+          <option>1</option>
+          <option>2–5</option>
+          <option>6+</option>
+          <option>Not sure</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-hosting">Hosting</label>
+        <select id="f-hosting" name="hosting" required>
+          <option value="">Choose…</option>
+          <option>Azure</option>
+          <option>AWS</option>
+          <option>On-premises / own servers</option>
+          <option>Other cloud or hosting provider</option>
+          <option>Not sure</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-deadline">When do you need this done?</label>
+        <select id="f-deadline" name="deadline" required>
+          <option value="">Choose…</option>
+          <option>Before 10 November 2026</option>
+          <option>Within a month</option>
+          <option>This quarter</option>
+          <option>Just exploring</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-scan">Scanner output <span class="opt">(optional)</span></label>
+        <textarea id="f-scan" name="scan_output" placeholder="Paste the output of dotnet-eol-scan here"></textarea>
+      </div>
+      <div class="field">
+        <label for="f-notes">Anything else? <span class="opt">(optional)</span></label>
+        <input id="f-notes" name="notes" type="text" placeholder="e.g. built by a contractor in 2023, no tests">
+      </div>
+      <label class="hp" aria-hidden="true">Leave this empty <input name="_gotcha" type="text" tabindex="-1" autocomplete="off"></label>
+      <button class="btn btn-primary" type="submit" style="width:100%">Send my free risk check</button>
+      <p class="fine" style="margin:12px 0 0">We only use your details to reply. See the <a href="privacy.html">privacy policy</a>.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 LTS Lift · Fixed-price upgrades to .NET 10 LTS</span>
+    <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="mailto:ltslift.upgrades@gmail.com">Contact</a></span>
+  </div>
+  <div class="wrap fine" style="margin-top:8px">.NET is a trademark of Microsoft. LTS Lift is independent and not affiliated with Microsoft.</div>
+</footer>
+
+<script>
+(function () {
+  // End of support: patches stop on 10 Nov 2026; switch copy from the start of 11 Nov (UTC).
+  var END = Date.UTC(2026, 10, 11, 0, 0, 0);
+  function show(after) {
+    document.querySelectorAll('[data-before]').forEach(function (el) { el.hidden = after; });
+    document.querySelectorAll('[data-after]').forEach(function (el) { el.hidden = !after; });
+  }
+  function tick() {
+    var ms = END - Date.now();
+    if (ms <= 0) { show(true); return; }
+    var mins = Math.floor(ms / 60000);
+    document.getElementById('cd-days').textContent = Math.floor(mins / 1440);
+    document.getElementById('cd-hours').textContent = Math.floor(mins % 1440 / 60);
+    document.getElementById('cd-mins').textContent = mins % 60;
+    setTimeout(tick, 30000);
+  }
+  tick();
+
+  document.querySelectorAll('[data-want]').forEach(function (a) {
+    a.addEventListener('click', function () { document.getElementById('f-want').value = a.getAttribute('data-want'); });
+  });
+
+  var btn = document.querySelector('.theme-toggle');
+  btn.addEventListener('click', function () {
+    var root = document.documentElement;
+    var cur = root.getAttribute('data-theme') ||
+      (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    var next = cur === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+})();
+</script>
+</body>
+</html>
